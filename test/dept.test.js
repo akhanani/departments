@@ -9,7 +9,7 @@ describe('grandTotal',function(){
     butcheryDept ={name : 'bitchery',total :9053},
 
 
-    assert.deepEqual(grandTotal(grandTotal,42543,(depts)));
+    assert.deepEqual(grandTotal(42543,(depts)));
 
     });
 
@@ -22,7 +22,7 @@ describe('grandTotal',function(){
       butcheryDept ={name : 'bitchery',total :9053},
 
 
-      assert.deepEqual(grandTotal(grandTotal,42543,(total)));
+      assert.deepEqual(grandTotal(depts,42543,(total)));
 
 
     });
