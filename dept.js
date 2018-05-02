@@ -17,13 +17,13 @@ for(var i=0;i<depts.length;i++){
   console.log(depts[i].total);
   console.log(depts[i].name);
 }
-/*
+
 console.log(toiletriesDept);
 console.log (groceriesDept);
 console.log( pharmacyDept);
 console.log (bakeryDept);
 console.log(butcheryDept);
-*/
+
 function grandTotal(depts){
   console.log(depts);
 }
